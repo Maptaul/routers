@@ -9,3 +9,11 @@ display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 5px;
 }
+
+nav a.active{
+    text-decoration: underline;
+    border-radius: 10px;
+    background-color: purple;
+    color: yellow;
+    padding: 5px;
+}

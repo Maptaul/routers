@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contract from "./components/Contract/Contract";
 
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 import PostDetails from "./components/PostDeatails/PostDetails";
 import Posts from "./components/Posts/Posts";
 import User from "./components/User/User";
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/about",
